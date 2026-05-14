@@ -6,18 +6,21 @@
     <meta name="x-apple-disable-message-reformatting" />
     <title>LIFULL HOME'S らくらくデコルーム</title>
     <style>
-      @media screen and (max-width: 640px) {
+      @media screen and (max-width: 720px) {
         .container { width: 100% !important; }
         .mobile-px { padding-left: 18px !important; padding-right: 18px !important; }
-        .mobile-stack { display: block !important; width: 100% !important; }
+        .mobile-py { padding-top: 36px !important; padding-bottom: 36px !important; }
+        .mobile-stack { display: block !important; width: 100% !important; box-sizing: border-box !important; }
+        .mobile-card-pad { padding: 0 0 14px 0 !important; }
         .mobile-center { text-align: center !important; }
-        .hero-title { font-size: 30px !important; line-height: 1.25 !important; }
+        .hero-title { font-size: 30px !important; line-height: 1.24 !important; }
         .section-title { font-size: 24px !important; line-height: 1.35 !important; }
         .button { display: block !important; width: 100% !important; box-sizing: border-box !important; }
+        .mobile-hide { display: none !important; }
       }
     </style>
   </head>
-  <body style="margin:0;padding:0;background-color:#f5f7fb;">
+  <body style="margin:0;padding:0;background-color:#f5f7fb;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
     <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">
       ステージングだけじゃない。物件掲載前の画像・図面作業を、これ1つで。
     </div>
@@ -25,15 +28,15 @@
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="width:100%;background-color:#f5f7fb;border-collapse:collapse;">
       <tr>
         <td align="center" style="padding:24px 12px;">
-          <table role="presentation" class="container" width="640" cellpadding="0" cellspacing="0" style="width:640px;max-width:640px;background-color:#ffffff;border-collapse:collapse;border-radius:18px;overflow:hidden;">
+          <table role="presentation" class="container" width="680" cellpadding="0" cellspacing="0" style="width:680px;max-width:680px;background-color:#ffffff;border-collapse:collapse;border-radius:22px;overflow:hidden;">
             <tr>
-              <td class="mobile-px" style="padding:24px 32px 14px 32px;background-color:#ffffff;">
+              <td class="mobile-px" style="padding:22px 34px 16px 34px;background-color:#ffffff;border-bottom:1px solid #e2e8f0;">
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
                   <tr>
-                    <td style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:700;color:#ed6103;letter-spacing:.02em;">
+                    <td style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#ed6103;letter-spacing:.02em;">
                       LIFULL HOME'S
                     </td>
-                    <td align="right" style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:13px;font-weight:700;color:#334155;">
+                    <td align="right" style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:13px;font-weight:900;color:#334155;">
                       らくらくデコルーム
                     </td>
                   </tr>
@@ -42,112 +45,188 @@
             </tr>
 
             <tr>
-              <td class="mobile-px" style="padding:18px 32px 8px 32px;background-color:#ffffff;">
-                <div style="display:inline-block;padding:8px 14px;border:1px solid #fed7aa;border-radius:999px;background-color:#fff7ed;font-family:Arial,'Helvetica Neue',sans-serif;font-size:13px;font-weight:700;color:#ed6103;">
-                  不動産会社向け 掲載準備AIツール
-                </div>
-                <h1 class="hero-title" style="margin:18px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:38px;line-height:1.22;font-weight:900;letter-spacing:0;color:#ed6103;">
-                  <span style="color:#111827;">ステージングだけじゃない。</span><br />
-                  物件掲載前の画像・図面作業を<br />
-                  これ1つで。
-                </h1>
-                <p style="margin:18px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:1.8;color:#475569;">
-                  間取図切り抜き、青空加工、パノラマステージング、帯替えまで対応。外注・手作業・撮影待ちを減らし、掲載準備をもっとスムーズにします。
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td align="center" class="mobile-px" style="padding:20px 32px 8px 32px;background-color:#ffffff;">
-                <a href="https://ui-ux-lifull-home-s-lp.vercel.app/" target="_blank" style="text-decoration:none;border:0;">
-                  <img
-                    src="https://ui-ux-lifull-home-s-lp.vercel.app/email/hero-demo.gif"
-                    width="560"
-                    height="515"
-                    alt="らくらくデコルーム 機能紹介デモ"
-                    style="display:block;width:100%;max-width:560px;height:auto;border:0;border-radius:16px;background-color:#f8fafc;"
-                  />
-                </a>
-              </td>
-            </tr>
-
-            <tr>
-              <td class="mobile-px" style="padding:20px 32px 30px 32px;background-color:#ffffff;">
+              <td class="mobile-px mobile-py" style="padding:40px 34px 24px 34px;background-color:#ffffff;background-image:linear-gradient(135deg,#fff7ed 0%,#ffffff 42%,#eff6ff 100%);">
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
                   <tr>
-                    <td class="mobile-stack" width="50%" style="padding:0 6px 10px 0;">
+                    <td class="mobile-stack" width="53%" valign="middle" style="padding:0 18px 18px 0;">
+                      <div style="display:inline-block;padding:8px 14px;border:1px solid #fed7aa;border-radius:999px;background-color:#fff7ed;font-family:Arial,'Helvetica Neue',sans-serif;font-size:13px;font-weight:900;color:#ed6103;">
+                        不動産会社向け 掲載準備AIツール
+                      </div>
+                      <p style="margin:16px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:13px;font-weight:900;color:#475569;">
+                        LIFULL HOME'S らくらくデコルーム
+                      </p>
+                      <h1 class="hero-title" style="margin:12px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:35px;line-height:1.22;font-weight:900;letter-spacing:0;color:#ed6103;">
+                        <span style="color:#111827;">ステージングだけじゃない。</span><br />
+                        物件掲載前の画像・図面作業を<br />
+                        これ1つで。
+                      </h1>
+                      <p style="margin:18px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;line-height:1.85;color:#475569;">
+                        間取図切り抜き、青空加工、パノラマステージング、帯替えまで対応。外注・手作業・撮影待ちを減らし、掲載準備をもっとスムーズにします。
+                      </p>
+                    </td>
+                    <td class="mobile-stack" width="47%" align="center" valign="middle" style="padding:0 0 18px 0;">
+                      <a href="https://ui-ux-lifull-home-s-lp.vercel.app/" target="_blank" style="text-decoration:none;border:0;">
+                        <img
+                          src="https://ui-ux-lifull-home-s-lp.vercel.app/email/hero-demo.gif"
+                          width="292"
+                          height="269"
+                          alt="らくらくデコルーム 機能紹介デモ"
+                          style="display:block;width:100%;max-width:292px;height:auto;border:0;border-radius:18px;background-color:#f8fafc;box-shadow:0 16px 34px rgba(15,23,42,.18);"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+                  <tr>
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:10px 7px 10px 0;">
                       <a class="button" href="https://ui-ux-lifull-home-s-lp.vercel.app/#campaign" target="_blank" style="display:inline-block;width:100%;box-sizing:border-box;padding:15px 18px;border-radius:999px;background-color:#ed6103;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#ffffff;text-align:center;text-decoration:none;">
                         無料デモアカウントを発行
                       </a>
                     </td>
-                    <td class="mobile-stack" width="50%" style="padding:0 0 10px 6px;">
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:10px 0 10px 7px;">
                       <a class="button" href="https://ui-ux-lifull-home-s-lp.vercel.app/#campaign" target="_blank" style="display:inline-block;width:100%;box-sizing:border-box;padding:14px 18px;border-radius:999px;background-color:#ffffff;border:1px solid #cbd5e1;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#111827;text-align:center;text-decoration:none;">
                         資料請求する
                       </a>
                     </td>
                   </tr>
                 </table>
-                <p style="margin:4px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:13px;line-height:1.7;color:#64748b;text-align:center;">
-                  操作感の確認は無料デモ、社内検討用には資料請求がおすすめです。
-                </p>
+
+                <table role="presentation" cellpadding="0" cellspacing="0" style="margin-top:8px;border-collapse:collapse;">
+                  <tr>
+                    <td style="padding:0 6px 8px 0;"><span style="display:inline-block;padding:8px 12px;border:1px solid #e2e8f0;border-radius:999px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:800;color:#334155;">間取り切り抜き</span></td>
+                    <td style="padding:0 6px 8px 0;"><span style="display:inline-block;padding:8px 12px;border:1px solid #e2e8f0;border-radius:999px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:800;color:#334155;">青空加工</span></td>
+                    <td style="padding:0 6px 8px 0;"><span style="display:inline-block;padding:8px 12px;border:1px solid #e2e8f0;border-radius:999px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:800;color:#334155;">パノラマ</span></td>
+                    <td style="padding:0 0 8px 0;"><span style="display:inline-block;padding:8px 12px;border:1px solid #e2e8f0;border-radius:999px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:800;color:#334155;">帯替え</span></td>
+                  </tr>
+                </table>
               </td>
             </tr>
 
             <tr>
-              <td class="mobile-px" style="padding:34px 32px 12px 32px;background-color:#f8fafc;">
-                <h2 class="section-title" style="margin:0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:28px;line-height:1.35;font-weight:900;color:#111827;text-align:center;">
+              <td class="mobile-px mobile-py" style="padding:46px 34px;background-color:#f8fafc;">
+                <h2 class="section-title" style="margin:0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:29px;line-height:1.35;font-weight:900;color:#111827;text-align:center;">
+                  掲載前の“ちょっと面倒”が、積み重なっていませんか？
+                </h2>
+                <p style="margin:16px auto 0 auto;max-width:560px;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;line-height:1.85;color:#64748b;text-align:center;">
+                  ステージング・家具消しだけでは拾いきれない、日常の画像加工・図面加工・マイソク編集の負担にフォーカスします。
+                </p>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:26px;border-collapse:collapse;">
+                  <tr>
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 7px 14px 0;">
+                      <div style="padding:18px;border:1px solid #e2e8f0;border-radius:18px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <div style="font-size:12px;font-weight:900;color:#ed6103;">01</div>
+                        <h3 style="margin:8px 0 0 0;font-size:18px;line-height:1.4;font-weight:900;color:#111827;">間取図の加工が手間</h3>
+                        <p style="margin:8px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">切り抜き作業を毎回外注・手作業している</p>
+                        <p style="margin:14px 0 0 0;padding:12px;border-radius:12px;background-color:#f8fafc;font-size:13px;line-height:1.6;font-weight:900;color:#334155;">外注待ち・作業時間が発生</p>
+                      </div>
+                    </td>
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 0 14px 7px;">
+                      <div style="padding:18px;border:1px solid #e2e8f0;border-radius:18px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <div style="font-size:12px;font-weight:900;color:#ed6103;">02</div>
+                        <h3 style="margin:8px 0 0 0;font-size:18px;line-height:1.4;font-weight:900;color:#111827;">外観写真の印象が弱い</h3>
+                        <p style="margin:8px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">曇り・雨天の写真で物件の第一印象が落ちる</p>
+                        <p style="margin:14px 0 0 0;padding:12px;border-radius:12px;background-color:#f8fafc;font-size:13px;line-height:1.6;font-weight:900;color:#334155;">再撮影や天候待ちが発生</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 7px 14px 0;">
+                      <div style="padding:18px;border:1px solid #e2e8f0;border-radius:18px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <div style="font-size:12px;font-weight:900;color:#ed6103;">03</div>
+                        <h3 style="margin:8px 0 0 0;font-size:18px;line-height:1.4;font-weight:900;color:#111827;">帯替えに時間がかかる</h3>
+                        <p style="margin:8px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">マイソクの会社情報・帯の差し替えが面倒</p>
+                        <p style="margin:14px 0 0 0;padding:12px;border-radius:12px;background-color:#f8fafc;font-size:13px;line-height:1.6;font-weight:900;color:#334155;">掲載準備が後ろ倒しになる</p>
+                      </div>
+                    </td>
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 0 14px 7px;">
+                      <div style="padding:18px;border:1px solid #e2e8f0;border-radius:18px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <div style="font-size:12px;font-weight:900;color:#ed6103;">04</div>
+                        <h3 style="margin:8px 0 0 0;font-size:18px;line-height:1.4;font-weight:900;color:#111827;">作業が属人化している</h3>
+                        <p style="margin:8px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">担当者ごとに画像加工の品質・スピードが変わる</p>
+                        <p style="margin:14px 0 0 0;padding:12px;border-radius:12px;background-color:#f8fafc;font-size:13px;line-height:1.6;font-weight:900;color:#334155;">安定した掲載品質を保ちにくい</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="mobile-px mobile-py" style="padding:48px 34px;background-color:#ffffff;">
+                <div style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;letter-spacing:.18em;color:#ed6103;text-align:center;">主な機能</div>
+                <h2 class="section-title" style="margin:12px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:30px;line-height:1.35;font-weight:900;color:#111827;text-align:center;">
                   流通物件の掲載準備を進める4つの機能
                 </h2>
+
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:28px;border-collapse:collapse;">
+                  <tr>
+                    <td class="mobile-stack mobile-card-pad" width="50%" valign="top" style="padding:0 8px 16px 0;">
+                      <div style="padding:16px;border:1px solid #e2e8f0;border-radius:22px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#fff7ed;font-size:12px;font-weight:900;color:#ed6103;">図面を整える</span></td><td align="right"><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#f1f5f9;font-size:12px;font-weight:800;color:#475569;">外注費用削減</span></td></tr></table>
+                        <h3 style="margin:14px 0 0 0;font-size:22px;line-height:1.35;font-weight:900;color:#111827;">間取り切り抜き</h3>
+                        <p style="margin:6px 0 12px 0;font-size:15px;line-height:1.6;font-weight:900;color:#334155;">図面の切り抜きを約30秒で。</p>
+                        <img src="https://ui-ux-lifull-home-s-lp.vercel.app/images/feature-floorplan-clean.png" width="270" alt="マイソクから間取り図を自動で切り抜く機能の紹介画像" style="display:block;width:100%;max-width:270px;height:auto;border:0;border-radius:14px;background-color:#fff7ed;" />
+                        <p style="margin:14px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">チラシやマイソク内の間取図を切り抜き、掲載用画像としてすばやく整えます。</p>
+                      </div>
+                    </td>
+                    <td class="mobile-stack mobile-card-pad" width="50%" valign="top" style="padding:0 0 16px 8px;">
+                      <div style="padding:16px;border:1px solid #e2e8f0;border-radius:22px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#fff7ed;font-size:12px;font-weight:900;color:#ed6103;">外観を整える</span></td><td align="right"><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#f1f5f9;font-size:12px;font-weight:800;color:#475569;">再撮影負担減</span></td></tr></table>
+                        <h3 style="margin:14px 0 0 0;font-size:22px;line-height:1.35;font-weight:900;color:#111827;">青空加工</h3>
+                        <p style="margin:6px 0 12px 0;font-size:15px;line-height:1.6;font-weight:900;color:#334155;">曇天写真を明るい第一印象へ。</p>
+                        <img src="https://ui-ux-lifull-home-s-lp.vercel.app/images/feature-sky-clean.png" width="270" alt="曇天の外観写真を青空に変換する青空加工機能の紹介画像" style="display:block;width:100%;max-width:270px;height:auto;border:0;border-radius:14px;background-color:#fff7ed;" />
+                        <p style="margin:14px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">天候待ち・再撮影の負担を減らし、外観写真の見栄えをワンクリックで改善します。</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="mobile-stack mobile-card-pad" width="50%" valign="top" style="padding:0 8px 0 0;">
+                      <div style="padding:16px;border:1px solid #e2e8f0;border-radius:22px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#fff7ed;font-size:12px;font-weight:900;color:#ed6103;">マイソクを整える</span></td><td align="right"><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#f1f5f9;font-size:12px;font-weight:800;color:#475569;">時短に強い</span></td></tr></table>
+                        <h3 style="margin:14px 0 0 0;font-size:22px;line-height:1.35;font-weight:900;color:#111827;">帯替え</h3>
+                        <p style="margin:6px 0 12px 0;font-size:15px;line-height:1.6;font-weight:900;color:#334155;">会社情報・帯の差し替えを効率化。</p>
+                        <img src="https://ui-ux-lifull-home-s-lp.vercel.app/images/feature-band.png" width="270" alt="販売図面の帯替えをワンクリックで完了する機能の紹介画像" style="display:block;width:100%;max-width:270px;height:auto;border:0;border-radius:14px;background-color:#fff7ed;" />
+                        <p style="margin:14px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">手間のかかるマイソクの帯替えをカンタン操作で。流通物件の再利用や掲載準備の時間を短縮します。</p>
+                      </div>
+                    </td>
+                    <td class="mobile-stack mobile-card-pad" width="50%" valign="top" style="padding:0 0 0 8px;">
+                      <div style="padding:16px;border:1px solid #e2e8f0;border-radius:22px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#fff7ed;font-size:12px;font-weight:900;color:#ed6103;">空間訴求を強める</span></td><td align="right"><span style="display:inline-block;padding:6px 10px;border-radius:999px;background-color:#f1f5f9;font-size:12px;font-weight:800;color:#475569;">差別化訴求</span></td></tr></table>
+                        <h3 style="margin:14px 0 0 0;font-size:22px;line-height:1.35;font-weight:900;color:#111827;">パノラマステージング</h3>
+                        <p style="margin:6px 0 12px 0;font-size:15px;line-height:1.6;font-weight:900;color:#334155;">360°でも暮らしのイメージを訴求。</p>
+                        <img src="https://ui-ux-lifull-home-s-lp.vercel.app/images/feature-panorama-clean.png" width="270" alt="空室パノラマに家具を自動配置するパノラマステージング機能の紹介画像" style="display:block;width:100%;max-width:270px;height:auto;border:0;border-radius:14px;background-color:#fff7ed;" />
+                        <p style="margin:14px 0 0 0;font-size:13px;line-height:1.75;color:#64748b;">パノラマ画像に家具配置イメージを加え、写真だけでは伝わりにくい空間の魅力を伝えます。</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
 
             <tr>
-              <td class="mobile-px" style="padding:14px 32px 30px 32px;background-color:#f8fafc;">
+              <td class="mobile-px mobile-py" style="padding:46px 34px;background-color:#f8fafc;">
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
                   <tr>
-                    <td class="mobile-stack" width="50%" style="padding:0 7px 14px 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="height:100%;border-collapse:separate;border-spacing:0;background-color:#ffffff;border:1px solid #e2e8f0;border-radius:14px;">
-                        <tr>
-                          <td style="padding:18px;">
-                            <div style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;color:#ed6103;">図面を整える</div>
-                            <h3 style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:19px;line-height:1.4;font-weight:900;color:#111827;">間取り切り抜き</h3>
-                            <p style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:1.7;color:#475569;">チラシやマイソク内の間取図を切り抜き、掲載用画像としてすばやく整えます。</p>
-                          </td>
-                        </tr>
-                      </table>
+                    <td class="mobile-stack" width="45%" valign="top" style="padding:0 18px 18px 0;">
+                      <div style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;letter-spacing:.18em;color:#ed6103;">導入メリット</div>
+                      <h2 class="section-title" style="margin:12px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:28px;line-height:1.4;font-weight:900;color:#111827;">
+                        “画像をきれいにする”ではなく、“掲載準備を早くする”。
+                      </h2>
+                      <p style="margin:16px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:1.85;color:#64748b;">
+                        外注待ちや担当者依存を減らし、物件公開までのスピード改善を狙えます。
+                      </p>
                     </td>
-                    <td class="mobile-stack" width="50%" style="padding:0 0 14px 7px;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="height:100%;border-collapse:separate;border-spacing:0;background-color:#ffffff;border:1px solid #e2e8f0;border-radius:14px;">
+                    <td class="mobile-stack" width="55%" valign="top">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
                         <tr>
-                          <td style="padding:18px;">
-                            <div style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;color:#ed6103;">外観を整える</div>
-                            <h3 style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:19px;line-height:1.4;font-weight:900;color:#111827;">青空加工</h3>
-                            <p style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:1.7;color:#475569;">天候待ちや再撮影の負担を減らし、外観写真の第一印象を改善します。</p>
-                          </td>
+                          <td width="50%" style="padding:0 6px 12px 0;"><div style="padding:16px;border:1px solid #e2e8f0;border-radius:16px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#111827;">外注費を削減</div></td>
+                          <td width="50%" style="padding:0 0 12px 6px;"><div style="padding:16px;border:1px solid #e2e8f0;border-radius:16px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#111827;">掲載スピード改善</div></td>
                         </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="mobile-stack" width="50%" style="padding:0 7px 0 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="height:100%;border-collapse:separate;border-spacing:0;background-color:#ffffff;border:1px solid #e2e8f0;border-radius:14px;">
                         <tr>
-                          <td style="padding:18px;">
-                            <div style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;color:#ed6103;">マイソクを整える</div>
-                            <h3 style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:19px;line-height:1.4;font-weight:900;color:#111827;">帯替え</h3>
-                            <p style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:1.7;color:#475569;">会社情報・帯の差し替えをカンタン操作で行い、掲載準備の時間を短縮します。</p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td class="mobile-stack" width="50%" style="padding:0 0 0 7px;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="height:100%;border-collapse:separate;border-spacing:0;background-color:#ffffff;border:1px solid #e2e8f0;border-radius:14px;">
-                        <tr>
-                          <td style="padding:18px;">
-                            <div style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;color:#ed6103;">空間訴求を強める</div>
-                            <h3 style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:19px;line-height:1.4;font-weight:900;color:#111827;">パノラマステージング</h3>
-                            <p style="margin:8px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:1.7;color:#475569;">360度でも暮らしのイメージを伝え、写真だけでは伝わりにくい魅力を補います。</p>
-                          </td>
+                          <td width="50%" style="padding:0 6px 0 0;"><div style="padding:16px;border:1px solid #e2e8f0;border-radius:16px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#111827;">掲載品質を平準化</div></td>
+                          <td width="50%" style="padding:0 0 0 6px;"><div style="padding:16px;border:1px solid #e2e8f0;border-radius:16px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#111827;">差別化を強化</div></td>
                         </tr>
                       </table>
                     </td>
@@ -157,63 +236,47 @@
             </tr>
 
             <tr>
-              <td class="mobile-px" style="padding:34px 32px;background-color:#101827;">
-                <h2 class="section-title" style="margin:0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:28px;line-height:1.35;font-weight:900;color:#ffffff;text-align:center;">
+              <td class="mobile-px mobile-py" style="padding:46px 34px;background-color:#101827;">
+                <div style="font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;letter-spacing:.18em;color:#fed7aa;text-align:center;">成果イメージ</div>
+                <h2 class="section-title" style="margin:12px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:29px;line-height:1.35;font-weight:900;color:#ffffff;text-align:center;">
                   掲載画像の改善は、反響機会を増やす打ち手になります。
                 </h2>
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:22px;border-collapse:collapse;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:24px;border-collapse:collapse;">
                   <tr>
-                    <td class="mobile-stack" width="25%" style="padding:5px;">
-                      <div style="padding:16px 10px;border-radius:14px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;">
-                        <div style="font-size:12px;font-weight:700;color:#fed7aa;">PV</div>
-                        <div style="margin-top:8px;font-size:25px;font-weight:900;color:#ed6103;">1.5〜5.0倍</div>
-                      </div>
-                    </td>
-                    <td class="mobile-stack" width="25%" style="padding:5px;">
-                      <div style="padding:16px 10px;border-radius:14px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;">
-                        <div style="font-size:12px;font-weight:700;color:#fed7aa;">CTR</div>
-                        <div style="margin-top:8px;font-size:25px;font-weight:900;color:#ed6103;">約2.8倍</div>
-                      </div>
-                    </td>
-                    <td class="mobile-stack" width="25%" style="padding:5px;">
-                      <div style="padding:16px 10px;border-radius:14px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;">
-                        <div style="font-size:12px;font-weight:700;color:#fed7aa;">問合せ</div>
-                        <div style="margin-top:8px;font-size:25px;font-weight:900;color:#ed6103;">約2.0倍</div>
-                      </div>
-                    </td>
-                    <td class="mobile-stack" width="25%" style="padding:5px;">
-                      <div style="padding:16px 10px;border-radius:14px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;">
-                        <div style="font-size:12px;font-weight:700;color:#fed7aa;">内見予約</div>
-                        <div style="margin-top:8px;font-size:25px;font-weight:900;color:#ed6103;">約4.3倍</div>
-                      </div>
-                    </td>
+                    <td class="mobile-stack mobile-card-pad" width="25%" style="padding:0 5px;"><div style="padding:18px 10px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;"><div style="font-size:13px;font-weight:900;color:#fed7aa;">PV</div><div style="margin-top:9px;font-size:25px;font-weight:900;color:#ed6103;">1.5〜5.0倍</div></div></td>
+                    <td class="mobile-stack mobile-card-pad" width="25%" style="padding:0 5px;"><div style="padding:18px 10px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;"><div style="font-size:13px;font-weight:900;color:#fed7aa;">CTR</div><div style="margin-top:9px;font-size:25px;font-weight:900;color:#ed6103;">約2.8倍</div></div></td>
+                    <td class="mobile-stack mobile-card-pad" width="25%" style="padding:0 5px;"><div style="padding:18px 10px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;"><div style="font-size:13px;font-weight:900;color:#fed7aa;">問合せ</div><div style="margin-top:9px;font-size:25px;font-weight:900;color:#ed6103;">約2.0倍</div></div></td>
+                    <td class="mobile-stack mobile-card-pad" width="25%" style="padding:0 5px;"><div style="padding:18px 10px;border:1px solid rgba(255,255,255,.12);border-radius:18px;background-color:#17233a;text-align:center;font-family:Arial,'Helvetica Neue',sans-serif;"><div style="font-size:13px;font-weight:900;color:#fed7aa;">内見予約</div><div style="margin-top:9px;font-size:25px;font-weight:900;color:#ed6103;">約4.3倍</div></div></td>
                   </tr>
                 </table>
-                <p style="margin:16px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:1.7;color:#cbd5e1;">
+                <p style="margin:18px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:1.7;color:#cbd5e1;">
                   ※数値は実績例であり、成果を保証するものではありません。物件条件や掲載時期により変動します。
                 </p>
-              </td>
-            </tr>
 
-            <tr>
-              <td class="mobile-px" style="padding:34px 32px;background-color:#ed6103;">
-                <h2 class="section-title" style="margin:0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:27px;line-height:1.4;font-weight:900;color:#ffffff;text-align:center;">
-                  今なら初期費用を抑えて、掲載準備の効率化を始められます。
-                </h2>
-                <p style="margin:16px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;line-height:1.8;color:#ffffff;text-align:center;">
-                  4機能の活用シーン、料金プラン、無料デモ発行手順をまとめて確認できます。
-                </p>
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:22px;border-collapse:collapse;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:34px;border-collapse:separate;border-spacing:0;background-color:#111f35;border:1px solid rgba(255,255,255,.12);border-radius:24px;">
                   <tr>
-                    <td class="mobile-stack" width="50%" style="padding:0 6px 10px 0;">
-                      <a class="button" href="https://ui-ux-lifull-home-s-lp.vercel.app/#campaign" target="_blank" style="display:inline-block;width:100%;box-sizing:border-box;padding:15px 18px;border-radius:999px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#ed6103;text-align:center;text-decoration:none;">
-                        無料デモアカウントを発行
-                      </a>
-                    </td>
-                    <td class="mobile-stack" width="50%" style="padding:0 0 10px 6px;">
-                      <a class="button" href="https://ui-ux-lifull-home-s-lp.vercel.app/#campaign" target="_blank" style="display:inline-block;width:100%;box-sizing:border-box;padding:14px 18px;border-radius:999px;background-color:#ed6103;border:1px solid #ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#ffffff;text-align:center;text-decoration:none;">
-                        資料請求する
-                      </a>
+                    <td style="padding:26px;">
+                      <div style="display:inline-block;padding:8px 12px;border-radius:999px;background-color:rgba(255,255,255,.08);font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;font-weight:900;color:#fed7aa;">定番機能も対応</div>
+                      <h2 style="margin:14px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:26px;line-height:1.35;font-weight:900;color:#ffffff;">AIホームステージング・家具消しも、もちろん使えます。</h2>
+                      <p style="margin:12px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:1.8;color:#cbd5e1;">空室の魅力づけや入居中物件の見栄え改善まで、らくデコ内でまとめて対応できます。</p>
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:20px;border-collapse:collapse;">
+                        <tr>
+                          <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 7px 0 0;">
+                            <div style="padding:12px;border-radius:18px;background-color:rgba(15,23,42,.45);font-family:Arial,'Helvetica Neue',sans-serif;">
+                              <img src="https://ui-ux-lifull-home-s-lp.vercel.app/images/classic-home-staging.png" width="254" alt="AIホームステージングのBefore After画像" style="display:block;width:100%;max-width:254px;height:auto;border:0;border-radius:14px;background-color:#ffffff;" />
+                              <h3 style="margin:14px 0 0 0;font-size:18px;line-height:1.4;font-weight:900;color:#ffffff;">AIホームステージング</h3>
+                              <p style="margin:8px 0 0 0;font-size:13px;line-height:1.7;color:#cbd5e1;">空室写真に家具を配置し、暮らしのイメージを伝えやすく。</p>
+                            </div>
+                          </td>
+                          <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 0 0 7px;">
+                            <div style="padding:12px;border-radius:18px;background-color:rgba(15,23,42,.45);font-family:Arial,'Helvetica Neue',sans-serif;">
+                              <img src="https://ui-ux-lifull-home-s-lp.vercel.app/images/classic-furniture-erase.png" width="254" alt="AI家具消しのBefore After画像" style="display:block;width:100%;max-width:254px;height:auto;border:0;border-radius:14px;background-color:#ffffff;" />
+                              <h3 style="margin:14px 0 0 0;font-size:18px;line-height:1.4;font-weight:900;color:#ffffff;">AI家具消し</h3>
+                              <p style="margin:8px 0 0 0;font-size:13px;line-height:1.7;color:#cbd5e1;">既存家具や残置物を消して、すっきりした印象へ。</p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
@@ -221,9 +284,42 @@
             </tr>
 
             <tr>
-              <td class="mobile-px" style="padding:22px 32px;background-color:#ffffff;">
-                <p style="margin:0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:1.7;color:#64748b;text-align:center;">
-                  このメールはHTMLメール配信用のモックです。リンク先はデモLPです。<br />
+              <td class="mobile-px mobile-py" style="padding:44px 34px;background-color:#ed6103;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+                  <tr>
+                    <td class="mobile-stack" width="55%" valign="middle" style="padding:0 18px 18px 0;">
+                      <h2 class="section-title" style="margin:0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:29px;line-height:1.42;font-weight:900;color:#ffffff;">
+                        今なら初期費用を抑えて、掲載準備の効率化を始められます。
+                      </h2>
+                      <p style="margin:16px 0 0 0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;line-height:1.8;color:#ffffff;">
+                        ステージング提案の次の一手として、現場で使われやすい4機能を軸に導入検討を促します。
+                      </p>
+                    </td>
+                    <td class="mobile-stack" width="45%" valign="middle">
+                      <div style="padding:20px;border-radius:22px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;">
+                        <h3 style="margin:0;font-size:20px;line-height:1.4;font-weight:900;color:#111827;">無料デモ・資料請求でわかること</h3>
+                        <p style="margin:12px 0 0 0;font-size:14px;line-height:1.9;color:#475569;">・4機能の具体的な活用シーン<br />・料金プランとおすすめプラン<br />・無料デモアカウントの発行手順<br />・掲載時の注意点・利用ガイド</p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:22px;border-collapse:collapse;">
+                  <tr>
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 7px 0 0;">
+                      <a class="button" href="https://ui-ux-lifull-home-s-lp.vercel.app/#campaign" target="_blank" style="display:inline-block;width:100%;box-sizing:border-box;padding:15px 18px;border-radius:999px;background-color:#ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#ed6103;text-align:center;text-decoration:none;">無料デモアカウントを発行</a>
+                    </td>
+                    <td class="mobile-stack mobile-card-pad" width="50%" style="padding:0 0 0 7px;">
+                      <a class="button" href="https://ui-ux-lifull-home-s-lp.vercel.app/#campaign" target="_blank" style="display:inline-block;width:100%;box-sizing:border-box;padding:14px 18px;border-radius:999px;background-color:#ed6103;border:1px solid #ffffff;font-family:Arial,'Helvetica Neue',sans-serif;font-size:15px;font-weight:900;color:#ffffff;text-align:center;text-decoration:none;">資料請求する</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="mobile-px" style="padding:24px 34px;background-color:#ffffff;">
+                <p style="margin:0;font-family:Arial,'Helvetica Neue',sans-serif;font-size:12px;line-height:1.75;color:#64748b;text-align:center;">
+                  HTMLメールでは一部メーラーで角丸・余白・GIF再生に差分が出る場合があります。配信前にSynergy!上でテスト配信してください。<br />
                   LIFULL HOME'S / らくらくデコルーム
                 </p>
               </td>
