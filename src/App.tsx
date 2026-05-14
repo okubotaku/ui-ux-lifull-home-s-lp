@@ -376,7 +376,7 @@ function SectionIntro({
 }: {
   eyebrow?: string;
   title: string;
-  body: ReactNode;
+  body?: ReactNode;
   light?: boolean;
   oneLineTitle?: boolean;
 }) {
@@ -390,7 +390,7 @@ function SectionIntro({
         </div>
       )}
       <h2 className={`${titleSizeClass} font-black leading-tight tracking-normal ${light ? "text-white" : "text-slate-950"}`}>{title}</h2>
-      <p className={`mt-5 text-base leading-8 sm:text-lg ${light ? "text-slate-300" : "text-slate-600"}`}>{body}</p>
+      {body && <p className={`mt-5 text-base leading-8 sm:text-lg ${light ? "text-slate-300" : "text-slate-600"}`}>{body}</p>}
     </div>
   );
 }
@@ -566,13 +566,6 @@ export default function App() {
           <SectionIntro
             eyebrow="主な機能"
             title="流通物件の掲載準備を進める4つの機能"
-            body={
-              <>
-                機能名を並べるのではなく、実務の流れに合わせて
-                <br />
-                「図面を整える」「外観を整える」「マイソクを整える」「空間訴求を強める」の順で見せます。
-              </>
-            }
           />
           <div className="mx-auto mt-12 grid max-w-7xl gap-6 lg:grid-cols-2">
             {features.map((feature) => (
@@ -609,7 +602,6 @@ export default function App() {
           <SectionIntro
             eyebrow="成果イメージ"
             title="掲載画像の改善は、反響機会を増やす打ち手になります。"
-            body="保証表現は避けながら、導入後に主要指標が改善した事例として見せる設計です。"
             light
             oneLineTitle
           />
