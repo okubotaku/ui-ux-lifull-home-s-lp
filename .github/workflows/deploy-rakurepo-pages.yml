@@ -1,10 +1,10 @@
-name: Deploy Rakurepo Preview to GitHub Pages
+name: Deploy Rakurepo LP
 
 on:
   push:
     branches: [main]
     paths:
-      - 'rakurepo-preview/**'
+      - 'public/rakurepo-preview/**'
       - '.github/workflows/deploy-rakurepo-pages.yml'
   workflow_dispatch:
 
@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -26,12 +26,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload static site
+
+      - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./rakurepo-preview
+          path: public/rakurepo-preview
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
